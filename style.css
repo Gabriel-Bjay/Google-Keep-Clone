@@ -178,11 +178,6 @@ input:focus{
 .form-actions{
     display: flex;
 }
-
-.active-form{
-    
-}
-
 .active-form form{
     display: flex;
     flex-direction: column;
