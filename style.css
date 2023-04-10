@@ -131,6 +131,8 @@ input:focus{
 }
 
 
+
+/* The Form Stylings */
 .form-container{
     max-width: 598px;
     
@@ -214,4 +216,48 @@ input:focus{
 .small-icon{
     color: black;
     font-size: 0.5rem;
+}
+
+/* All notes */
+.notes{
+    display: flex;
+    justify-content: center;
+}
+
+.note{
+    background: #fff;
+    width: 275px;
+    border: 1px solid #e0e1e0;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px;
+
+}
+
+.note .title{
+    
+    width: 100%;
+    margin: 10px 0 0 10px;
+}
+.note .text{
+    
+    width: 100%;
+    margin: 10px 0 0 10px;
+    
+}
+
+ .note-footer .material-symbols-outlined{
+    color: #5f6368;
+}
+
+.note .note-footer {
+    display: flex;
+    margin-top: 10px;
+    padding: 0;
+    justify-content: center;
+}
+.note .check-circle{
+    position: absolute;
+    top: -12px;
+    left: -25px;
 }
